@@ -13,7 +13,7 @@ account = sys.argv[1]
 
 if account in PASSWORDS:
 	pyperclip.copy(PASSWORDS[account])
-	print(account + "password is copied to clipboard")
+	print(account, "password is copied to clipboard")
 else:
-	print(account + "is not exist")
+	print(account, "is not exist")
 
